@@ -1,10 +1,10 @@
 package com.platzi.market.persistence.entity;
 
-import javax.persistence.Column;
-import javax.persistence.Id;
-import javax.persistence.OneToMany;
+import javax.persistence.*;
 import java.util.List;
 
+@Entity
+@Table(name = "clientes")
 public class Cliente {
 
     @Id
